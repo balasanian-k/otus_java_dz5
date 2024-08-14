@@ -10,7 +10,7 @@ public class HeaderComponentAuth extends AbsBaseComponent{
         super(driver);
     }
 
-    @FindBy(css = ".header3__user-info-name")
+    @FindBy(xpath = "//section/div[./span[text()='Тест']]")
     private WebElement userItem;
 
     public void moveToUserItem() {

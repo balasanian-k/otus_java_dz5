@@ -47,7 +47,7 @@ public class PersonalInfoForm extends AbsBaseComponent {
     @FindBy(xpath = "//input[@data-title='Город']/parent::label/parent::div")
     private WebElement cityField;
 
-    @FindBy(css = "button[title='Пенза']")
+    @FindBy(css = "button[title='Снежинск']")
     private WebElement citySelection;
 
     //Уровень языка
@@ -128,7 +128,7 @@ public class PersonalInfoForm extends AbsBaseComponent {
     private String blogNameValue = "Tecт";
     private String dateOfBirthValue = "12.04.1988";
     private String countryValue = "Россия";
-    private String cityValue = "Пенза";
+    private String cityValue = "Снежинск";
     private String languageValue = "Выше среднего (Upper Intermediate)";
     private String сontactOneValue = "@test_skype";
     private String contactTwoValue = "@test_telegram";

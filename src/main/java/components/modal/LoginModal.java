@@ -28,11 +28,13 @@ public class LoginModal extends AbsBaseComponent implements ILoginModal {
 
     public void loginUser() {
         waitTools.waitForVisibleElement(emailInputField);
-        driver.findElement(By.xpath("//div[./input[@name='email']]")).click();
-        waitTools.waitForCondition(ExpectedConditions.stalenessOf(emailInputField));
+//        emailInputField.click();
+//        driver.findElement(By.xpath("//div[./input[@name='email']]")).click();
+//        waitTools.waitForCondition(ExpectedConditions.stalenessOf(emailInputField));
         fillOutForm(emailInputField, System.getProperty("login"));
-        driver.findElement(By.xpath("//div[./input[@type='password']]")).click();
-        waitTools.waitForCondition(ExpectedConditions.stalenessOf(passwordInputField));
+//        driver.findElement(By.xpath("//div[./input[@type='password']]")).click();
+//        passwordInputField.click();
+//        waitTools.waitForCondition(ExpectedConditions.stalenessOf(passwordInputField));
         fillOutForm(passwordInputField, System.getProperty("password"));
         signInButton.click();
     }

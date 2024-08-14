@@ -10,10 +10,10 @@
 
     <properties>
         <maven.surefire>3.3.1</maven.surefire>
-        <compiler.plugin.version>3.12.1</compiler.plugin.version>
+        <compiler.plugin.version>3.13.0</compiler.plugin.version>
 
         <junit.version>5.10.2</junit.version>
-        <webdriver.manager.version>5.7.0</webdriver.manager.version>
+        <webdriver.manager.version>5.9.2</webdriver.manager.version>
         <selenium.java.version>4.23.1</selenium.java.version>
         <log4j.version>2.22.1</log4j.version>
         <log4j.api.version>2.22.1</log4j.api.version>

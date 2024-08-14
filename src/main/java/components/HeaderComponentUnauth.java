@@ -11,7 +11,7 @@ public class HeaderComponentUnauth extends AbsBaseComponent{
         super(driver);
     }
 
-    @FindBy(xpath = "//button[text()='Войти']")
+    @FindBy(xpath = "//div[./button[text()='Войти']]")
     private WebElement signInButton;
 
     public void clickSignInButton() {

@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30a891a2-3728-49af-be1b-e5baa233a6be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/AbsBaseComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/DropDownComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/HeaderComponentAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/HeaderComponentUnauth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/PersonalInfoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/modal/ILoginModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/modal/LoginModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/AbsPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AbsBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tools/WaitTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="30a891a2-3728-49af-be1b-e5baa233a6be" name="Changes" comment="changes made">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/HeaderComponentAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/HeaderComponentAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/HeaderComponentUnauth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/HeaderComponentUnauth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/PersonalInfoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/PersonalInfoForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/modal/LoginModal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/modal/LoginModal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/AbsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/AbsPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/WaitTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/WaitTools.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2kbp6xWGDloedrV1aISRAjEC8gJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,33 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/KBalasanyan/IdeaProjects/dz5/src/main/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KBalasanyan/IdeaProjects/dz5/src/main/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KBalasanyan\IdeaProjects\dz5\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="dz_5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="dz_5" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="dz_5 [clean,test,-Dtest=MainTest...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -122,6 +103,19 @@
       <option name="presentableId" value="Default" />
       <updated>1723561958962</updated>
     </task>
+    <task id="LOCAL-00001" summary="changes made">
+      <option name="closed" value="true" />
+      <created>1723646623571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723646623571</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes made" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes made" />
   </component>
 </project>

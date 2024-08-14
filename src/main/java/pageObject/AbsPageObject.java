@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import tools.WaitTools;
 
 public abstract class AbsPageObject {
@@ -28,11 +29,13 @@ public abstract class AbsPageObject {
 
     public void fillOutForm(WebElement webElement, String text) {
         webElement.clear();
+//        webElement.isDisplayed();
         webElement.sendKeys(text);
     }
 
     public void moveToElement(WebElement webElement) {
-        waitTools.waitForVisibleElement(webElement);
+//        waitTools.waitForVisibleElement(webElement);
+//        waitTools.waitForCondition(ExpectedConditions.stalenessOf(webElement));
         actions.moveToElement(webElement).perform();
     }
 
